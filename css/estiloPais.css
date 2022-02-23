@@ -1,0 +1,148 @@
+@font-face {
+  font-family: uwu;
+  src: url(fuente1.otf);
+}
+
+div.contenedor{
+    width: 100%;
+    height: 100%;
+    border: 1px solid gray;
+    background-color: rgba(250, 235, 215, 0.822);
+    
+}
+
+header {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+
+footer{
+  
+  padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+
+}
+
+nav ul {
+    list-style-type: none; /* elimina viñeta*/
+    padding: 0;
+    overflow: hidden; /*Especifica qué sucede si el contenido
+    del cuadro de un elemento se desborda */
+    background-color: rgb(255, 255, 255);
+}
+
+nav ul a {
+    text-decoration: none;
+
+}
+
+li a {
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+
+li a:hover { /*Cuando pasa el mouse sobre el elemento*/
+  background-color: #000000;
+  color:rgb(255, 255, 255);
+  font-family: uwu;
+}
+
+li a:active { /*Cuando da click en el mouse */
+  background-color: #626a6b;
+  font-size: 120%;
+}
+
+a.active {
+    color: red;
+}
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+    background-color: #ffd7ba8f;
+    background-repeat:repeat-y; 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+}
+
+body{
+  background-image: url("../img/paises.jpg");
+  background-size: auto;
+  background-position: center;
+}
+
+ul{
+  color: #cccccc;
+}
+
+p{
+  margin-left: 300px;
+  text-align: justify;
+}
+
+h1{
+  text-align:center;
+  font-size: 150%;
+}
+
+h3{
+  text-align: center;
+}
+
+#mexico{
+  color:rgb(45, 124, 45);
+}
+
+#londres{
+  color:rgb(182, 31, 31);
+}
+
+#paris{
+  color:rgb(27, 27, 133);
+}
+
+#tokyo{
+  color:FireBrick;
+}
+
+#nuevay{
+  color:rgb(15, 25, 80);
+}
+
+.banderaMex{
+  background-image: url("../img/mexico.jpg");
+  background-repeat: no-repeat;
+  }
+.banderaLon{
+  background-image: url("../img/londres.jpg");
+  background-repeat: no-repeat;
+}
+.banderaPar{
+  background-image: url("../img/paris.jpg");
+  background-repeat: no-repeat;
+}
+.banderaTok{
+  background-image: url("../img/tokyo.jpg");
+  background-repeat: no-repeat;
+}
+.banderaYork{
+  background-image: url("../img/usa.jpg");
+  background-repeat: no-repeat;
+}
